@@ -1,12 +1,12 @@
 # Welcome Guys...
 
-## ## ⚡ Overview
+# ⚡ Overview
 
 **XBoosters Traffic** is a high-performance web utility designed for stress testing and web traffic analysis. It leverages multi-threading technology to deliver high volumes of hits from various social media referrers, ensuring your web infrastructure is resilient and capable of handling diverse traffic origins.
 
 ---
 
-### ### 🔥 Core Capabilities
+###  🔥 Core Capabilities
 
 * **Instant Delivery:** Utilize multi-threading to maximize throughput across your network.
 * **Diverse Referrer Headers:** Authentic traffic headers from **X (Twitter)**, **Facebook**, **Instagram**, and Global Search Engines.
@@ -15,7 +15,7 @@
 
 ---
 
-### ### 📦 Installation
+###  📦 Installation
 
 To deploy the engine, ensure you have the required environment. Copy and paste the following commands:
 
@@ -33,7 +33,7 @@ pip install requests
 
 ---
 
-### ### 🚀 Quick Start
+###  🚀 Quick Start
 
 Launch the engine with the following command:
 
@@ -48,7 +48,7 @@ Python3 XBoosters-Traffic.py
 
 ---
 
-### ### 📊 Traffic Analytics
+###  📊 Traffic Analytics
 
 | Source | Referrer Domains |
 | --- | --- |
@@ -59,14 +59,14 @@ Python3 XBoosters-Traffic.py
 
 ---
 
-### ### ⚖️ Disclaimer
+###  ⚖️ Disclaimer
 
 This tool is strictly for **Educational and Performance Testing Purposes**. The developers hold no responsibility for misuse or any damage caused to third-party assets. Use responsibly within the boundaries of cybersecurity ethics.
 
 ---
 
 <p align="center">
-Developed by <b>XBoosters Team</b>
+Developed by <b>Darkness-XyZ Team</b>
 
 
 
