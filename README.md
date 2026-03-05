@@ -38,7 +38,7 @@ pip install requests
 Launch the engine with the following command:
 
 ```bash
-python XBoosters-TrafficPageweb.py
+Python3 XBoosters-Traffic.py
 
 ```
 
