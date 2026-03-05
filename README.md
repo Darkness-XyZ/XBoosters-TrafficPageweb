@@ -1,57 +1,75 @@
-<p align="center">
-<img src="https://www.google.com/search?q=https://capsule-render.vercel.app/render%3Ftype%3Dsoft%26color%3Dauto%26height%3D200%26section%3Dheader%26text%3DTraffic%2520Forge%2520v2.5%26fontSize%3D70%26animation%3DfadeIn" />
-</p>
+# Welcome Guys...
 
-# 🛠 Tentang Proyek Ini
+## ## ⚡ Overview
 
-Bosan dengan pengujian trafik yang itu-itu saja? Traffic Forge hadir sebagai solusi ringan untuk mensimulasikan kunjungan web secara dinamis. Skrip ini dibuat khusus bagi para pengembang yang ingin melihat bagaimana server mereka menangani rujukan (referrer) dari berbagai platform besar tanpa harus melakukan pengujian manual yang melelahkan.
+**XBoosters Traffic** is a high-performance web utility designed for stress testing and web traffic analysis. It leverages multi-threading technology to deliver high volumes of hits from various social media referrers, ensuring your web infrastructure is resilient and capable of handling diverse traffic origins.
 
-Catatan: Skrip ini mengedepankan efisiensi jalur (threading) dan kerahasiaan identitas peramban agar trafik terlihat lebih natural.
+---
 
-# 🚀 Mengapa Memilih Traffic Forge?
+### ### 🔥 Core Capabilities
 
-⚡ Akselerasi Multi-Thread: Kendalikan kecepatan simulasi sesuai kekuatan perangkat Anda.
+* **Instant Delivery:** Utilize multi-threading to maximize throughput across your network.
+* **Diverse Referrer Headers:** Authentic traffic headers from **X (Twitter)**, **Facebook**, **Instagram**, and Global Search Engines.
+* **Persistent Connection:** Efficient `requests.Session` management to reduce latency and system load.
+* **Stealth Architecture:** Modernized User-Agent rotation and Sec-Fetch headers to mirror genuine browser behavior.
 
-📱 Kamuflase Peramban: Menggunakan basis data User-Agent yang selalu diperbarui (Chrome, Safari, Firefox).
+---
 
-🔗 Jaringan Rujukan Luas:
+### ### 📦 Installation
 
-The "X" Factor: Simulasi dari x.com (sebelumnya Twitter) dan t.co.
+To deploy the engine, ensure you have the required environment. Copy and paste the following commands:
 
-Social Circle: Rujukan dari ekosistem Facebook dan Instagram.
+```bash
+# Clone the repository
+git clone https://github.com/your-username/XBoosters-Traffic.git
 
-Organic Search: Mensimulasikan klik dari Google, Bing, hingga DuckDuckGo.
+# Navigate to the directory
+cd XBoosters-Traffic
 
-🎨 Visual Konsol yang Segar: Antarmuka terminal berwarna untuk pemantauan status secara langsung.
-
-# 📟 Persiapan & Penggunaan
-
-1. Pastikan Pustaka Terpasang
-Cukup jalankan satu perintah ini di terminal Anda:
-
+# Install dependencies
 pip install requests
 
+```
 
-2. Jalankan sc
-Masuk ke direktori file dan eksekusi:
+---
 
-python3 XBoosters-TrafficPageweb.py
+### ### 🚀 Quick Start
 
+Launch the engine with the following command:
 
-3. Alur Kerja
-Cukup masukkan URL target, pilih asal trafik, tentukan jumlah kunjungan, dan biarkan skrip melakukan sisanya.
+```bash
+python XBoosters-TrafficPageweb.py
 
-# 📜 Pesan Penulis
+```
 
-Proyek ini saya kembangkan untuk membantu Bloggers
+1. **Target:** Provide the full URL (e.g., `https://yourdomain.com`).
+2. **Origin:** Choose your preferred traffic source (X, FB, IG, or Mix).
+3. **Volume:** Specify the total number of hits and worker threads.
 
-Gunakan dengan bijak, kembangkan dengan kreatif.
+---
+
+### ### 📊 Traffic Analytics
+
+| Source | Referrer Domains |
+| --- | --- |
+| **X (Twitter)** | `x.com`, `t.co`, `mobile.x.com` |
+| **Facebook** | `facebook.com`, `m.facebook.com` |
+| **Instagram** | `instagram.com`, `l.instagram.com` |
+| **Search** | `google.com`, `bing.com`, `duckduckgo.com` |
+
+---
+
+### ### ⚖️ Disclaimer
+
+This tool is strictly for **Educational and Performance Testing Purposes**. The developers hold no responsibility for misuse or any damage caused to third-party assets. Use responsibly within the boundaries of cybersecurity ethics.
+
+---
 
 <p align="center">
-Dikelola dengan oleh <b>[Darkness-Xyz]</b> 
+Developed by <b>XBoosters Team</b>
 
 
 
 
-© 2024 • Lisensi MIT
+<i>Empowering Web Infrastructure Reliability.</i>
 </p>
